@@ -1,0 +1,6 @@
+﻿version: "3.9"
+services:
+  mcp-gateway:
+    build: .
+    ports:
+      - "8000:8000"
